@@ -18,7 +18,11 @@
 
 <div class="container-fluid">
 	<div class="row">
-   <img src={{ site.basedir }}/assets/img/land.png class="mx-auto d-block" alt="Responsive image">
+        <picture>
+  		<source media="(min-width: 600px)" srcset={{ site.basedir }}/assets/img/land.png>
+  		<source media="(max-width: 599px)" srcset={{ site.basedir }}/assets/img/mobile.png>
+  		<img src="assets/img/land.png" alt="False Consciousness Studios" class="img-fluid">
+	</picture>
 	</div>
 	<div class="row">
 		<div class="col-md-4">
