@@ -11,3 +11,8 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
