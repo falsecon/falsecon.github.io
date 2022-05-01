@@ -16,3 +16,9 @@ body {
     margin-right: 0px;
     margin-left: 0px;
 }
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+}
